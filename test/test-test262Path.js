@@ -31,4 +31,11 @@ describe("test262Path", function () {
             assert.equal("" , test262Path.zeropad("annexB"));
         });
     });
+
+    describe("makeFileName", function () {
+        it("makes a filename for a single test", function () {
+            assert.equal("S25.4.4.1_A1.1_T1.js",
+                         test262Path.makeFilename("S", "25.4.4.1", "1.1", 1));
+        });
+    });
 });
