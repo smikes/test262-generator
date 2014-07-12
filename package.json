@@ -1,0 +1,28 @@
+{
+  "name": "test262-generator",
+  "version": "0.0.0",
+  "description": "generates tests suitable for test262 framework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/smikes/test262-generator"
+  },
+  "keywords": [
+    "test262",
+    "ECMAScript",
+    "generator",
+    "standard"
+  ],
+  "author": "Sam Mikes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smikes/test262-generator/issues"
+  },
+  "homepage": "https://github.com/smikes/test262-generator"
+}
