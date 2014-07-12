@@ -1,6 +1,6 @@
 JSSOURCES=$(shell find lib -name '*.js' -print)
 
-prepublish: lint doc test no-dos-endings check-coverage jstest-slow
+prepublish: lint test no-dos-endings check-coverage jstest-slow
 
 lint: jslint 
 
@@ -27,9 +27,6 @@ cover: $(JSSOURCES)
 
 check-coverage: cover
 	./node_modules/.bin/istanbul check-coverage --statements 90 --branches 90 --functions 90 --lines 90
-
-doc:
-	./node_modules/.bin/yuidoc $(DOCDIRS)
 
 clean:
 	-find . -name "*~" | xargs rm
