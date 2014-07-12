@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/smikes/test262-generator/issues"
   },
-  "homepage": "https://github.com/smikes/test262-generator"
+  "homepage": "https://github.com/smikes/test262-generator",
+  "devDependencies": {
+    "istanbul": "^0.3.0",
+    "jslint": "^0.5.2",
+    "mocha": "^1.20.1"
+  }
 }
