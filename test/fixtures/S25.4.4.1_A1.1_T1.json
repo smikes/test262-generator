@@ -1,0 +1,9 @@
+{
+  "description": "Promise.all is callable",
+  "author": "Sam Mikes",
+  "section": "25.4.4.1",
+  "assertion": "1.1",
+  "test": 1,
+  "expression": "typeof Promise.all",
+  "expected": "\"function\""
+}
